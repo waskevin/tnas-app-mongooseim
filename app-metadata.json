@@ -1,0 +1,21 @@
+{
+  "number": 21,
+  "name": "MongooseIM",
+  "source": "https://www.erlang-solutions.com/products/mongooseim.html",
+  "docker_hub": "mongooseim/mongooseim",
+  "tag": "PR-4378",
+  "repository": "https://github.com/waskevin/tnas-app-mongooseim",
+  "dual_arch": true,
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "screenshot_path": "precheck-screenshots/mongooseim/x86_64/run.png",
+  "screenshot_status": "pending",
+  "developer_name": "管浩良",
+  "developer_email": "k.kuan@qq.com",
+  "submission_status": "not_submitted",
+  "scheduled_publish": "20:00",
+  "runtime_status": "startup_failed",
+  "runtime_note": "app-1  | Error: \"Timeout while attempting to connect to a MongooseIM node mongooseim@3e01b3b0d07b-1"
+}
