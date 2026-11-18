@@ -1,0 +1,6 @@
+services:
+  mongooseim:
+    image: mongooseim/mongooseim:PR-4378
+    restart: unless-stopped
+    environment:
+      TZ: Asia/Shanghai
